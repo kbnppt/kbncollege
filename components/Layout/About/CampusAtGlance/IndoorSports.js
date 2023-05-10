@@ -60,8 +60,8 @@ const IndoorSports = () => {
           Physiotherapy equipment also available to provide first aid to the injured
           </p>
       </div>
-      <Image src={'/images/indoor.gif'} alt="" width={1360} height={940} />
-      <Image src={'/images/tennis_robo1.jpg'} alt="" width={1360} height={940} />
+      <Image src={'/images/indoor.gif'} alt="" width={600} height={600} />
+      <Image src={'/images/tennis_robo1.jpg'} alt="" width={600} height={600} />
   </div>;
 };
 

@@ -28,7 +28,7 @@ const Bank = () => {
         <p className={classes.teluguContent}>
         We have State Bank of India in our Campus for our student’s scholarship needs. Each student holds a passbook with an account number and a debit card to access their account. Students scholarships are credited in their respective accounts, so that they can access to them when needed.
         </p>
-        <Image src={'/images/bank.gif'} alt="" width={1360} height={940} />
+        <Image src={'/images/bank.gif'} alt="" width={600} height={600} />
   </div>;
 };
 

@@ -17,8 +17,8 @@ const Divyangian = () => {
 
   return <div>
       <h3 className={classes.teluguHeading}>Facilities For Divyangian</h3>
-      <Image src={'/images/divyan.gif'} alt="" width={1360} height={940} />
-      <Image src={'/images/Wheel Chairs.gif'} alt="" width={1360} height={940} />
+      <Image src={'/images/divyan.gif'} alt="" width={600} height={600} />
+      <Image src={'/images/Wheel Chairs.gif'} alt="" width={600} height={600} />
       
   </div>;
 };

@@ -32,7 +32,7 @@ const GirlsHostel = () => {
         <p className={classes.teluguContent}>
         Usually students will be permitted to go home only if the college is closed for a vacation.
         </p>
-        <Image src={'/images/girlshostel.gif'} alt="" width={1360} height={940} />
+        <Image src={'/images/girlshostel.gif'} alt="" width={600} height={600} />
   </div>;
 };
 

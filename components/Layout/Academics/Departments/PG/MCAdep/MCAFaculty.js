@@ -73,21 +73,21 @@ const MCAFaculty = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData2('santhibabu.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData('santhibabu.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData2('13-M. SANTHI BABU.pdf')}`} target='__blank'> <h3>M. SANTHI BABU</h3></a>
                         <p>Faculty</p>
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData2('madhusudhana.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData('madhusudhana.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData2('14-B. MADHU SUDHANA RAO.pdf')}`} target='__blank'> <h3>B.MADHU SUDHANA RAO</h3></a>
                         <p>Faculty</p>
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData2('madhuri.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData('madhuri.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData2('11-G. MADHURI.pdf')}`} target='__blank'> <h3>G. MADHURI</h3></a>
                         <p>Faculty</p>
@@ -101,7 +101,7 @@ const MCAFaculty = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData2('manaswini.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData('manaswini.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData2('16-NVL MANASWINI.pdf')}`} target='__blank'> <h3>NVL MANASWINI</h3></a>
                         <p>Faculty</p>

@@ -78,7 +78,7 @@ const OutdoorSports = () => {
           Basketball Court with Concrete flooring and cement posts and LED Flood lights
           </p>
       </div>
-      <Image src={'/images/outdoorsportsmach.gif'} alt="" width={1360} height={940} />
+      <Image src={'/images/outdoorsportsmach.gif'} alt="" width={600} height={600} />
   </div>;
 };
 

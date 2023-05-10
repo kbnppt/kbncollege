@@ -30,8 +30,8 @@ const CSDepFaculty = () => {
     }
 
     const getImgData1 = (data) =>{
-        let value = data?.split('%20')?.join(' ');
-        let filterValue = apidata1?.find((e)=>e?.name == value);
+        let value = data;
+        let filterValue = apidata1?.find((e)=>e?.name.toLocaleLowerCase().trim() == value.toLocaleLowerCase().trim());
         if(filterValue){
             return filterValue?.id
         }
@@ -85,7 +85,7 @@ const CSDepFaculty = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('M.KALADEVI - Copy.jpg')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=1q_UTpB2A2iSHOocO94YyY2g27ieDixRk`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('7-M. KALA DEVI.pdf')}`} > <h3>M.KALA DEVI</h3></a>
                         <p>Faculty</p>
@@ -100,14 +100,14 @@ const CSDepFaculty = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('gowthamip.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('gowthamip.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('P. GOWTHAMI DEVI.pdf')}`} > <h3>P. GOWTHAMI DEVI</h3></a>
                         <p>Faculty</p>
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('gowthamip.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('gowthamip.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('P. GOWTHAMI DEVI.pdf')}`} > <h3>K.V.L.N PRASAD</h3></a>
                         <p>Faculty</p>
@@ -115,35 +115,35 @@ const CSDepFaculty = () => {
                 </div>
 
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('asiya.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('asiya.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('10-SK. ASIYA BEGUM.pdf')}`} > <h3>SK. ASIYA BEGUM</h3></a>
                         <p>Faculty</p>
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('madhuri.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('madhuri.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('11-G. MADHURI.pdf')}`} > <h3>G. MADHURI</h3></a>
                         <p>Faculty</p>
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('tejasri.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('tejasri.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('12-O. TEJA SRI.pdf')}`} > <h3>O.TEJA SRI</h3></a>
                         <p>Faculty</p>
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('santhibabu.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('santhibabu.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('13-M. SANTHI BABU.pdf')}`} > <h3>M. SANTHI BABU</h3></a>
                         <p>Faculty</p>
                     </div>
                 </div>
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('madhusudhana.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('madhusudhana.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('14-B. MADHU SUDHANA RAO.pdf')}`} > <h3>B.MADHU SUDHANA RAO</h3></a>
                         <p>Faculty</p>
@@ -151,7 +151,7 @@ const CSDepFaculty = () => {
                 </div>
 
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('balaji.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('balaji.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('15-J. BALAJI.pdf')}`} > <h3>J. BALAJI</h3></a>
                         <p>Faculty</p>
@@ -159,7 +159,7 @@ const CSDepFaculty = () => {
                 </div>
 
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('manaswini.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=${getImgData1('manaswini.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('16-NVL MANASWINI.pdf')}`} > <h3>NVL MANASWINI</h3></a>
                         <p>Faculty</p>
@@ -167,7 +167,7 @@ const CSDepFaculty = () => {
                 </div>
 
                 <div>
-                    <img src={`https://drive.google.com/uc?id=${getImgData('aruna.PNG')}`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
+                    <img src={`https://drive.google.com/uc?id=1hbB9eWjcp3Ab_LQT6ZBpoxWqYHDryJot`} alt='Faculty' style={{ height: '200px', width: '200px' }} />
                     <div style={{ textAlign: 'center' }}>
                         <a href={`https://drive.google.com/uc?id=${getImgData('17-ARUNA.pdf')}`} > <h3>ARUNA</h3></a>
                         <p>Faculty</p>

@@ -144,31 +144,31 @@ const AAAReports = () => {
                 <ArrowForwardIosIcon className={classes.arrowIcon} />
                 <a className={classes.arrowwithContent}>Academic Administrative Audit Report 2018-2019</a>
             </div>
-            <Image src={'/images/AAPHOTO-2018-19.jpg'} alt="" width={1360} height={740} />
+            <Image src={'/images/AAPHOTO-2018-19.jpg'} alt="" width={600} height={740} />
             <p className={classes.reportsHeading}>Academic Year 2017-2018</p>
             <div className={classes.objectivesContent} style={{ marginBottom: '20px' }}>
                 <ArrowForwardIosIcon className={classes.arrowIcon} />
                 <a className={classes.arrowwithContent}>Academic Administrative Audit Report 2017-2018</a>
             </div>
-            <Image src={'/images/photo2017-18.jpg'} alt="" width={1360} height={740} />
+            <Image src={'/images/photo2017-18.jpg'} alt="" width={600} height={740} />
             <p className={classes.reportsHeading}>Academic Year 2016-2017</p>
             <div className={classes.objectivesContent} style={{ marginBottom: '20px' }}>
                 <ArrowForwardIosIcon className={classes.arrowIcon} />
                 <a className={classes.arrowwithContent}>Academic Administrative Audit Report 2016-2017</a>
             </div>
-            <Image src={'/images/photo2016-17.jpg'} alt="" width={1360} height={740} />
+            <Image src={'/images/photo2016-17.jpg'} alt="" width={600} height={740} />
             <p className={classes.reportsHeading}>Academic Year 2015-2016</p>
             <div className={classes.objectivesContent} style={{ marginBottom: '20px' }}>
                 <ArrowForwardIosIcon className={classes.arrowIcon} />
                 <a className={classes.arrowwithContent}>Academic Administrative Audit Report 2015-2016</a>
             </div>
-            <Image src={'/images/photo2015-16.jfif'} alt="" width={1360} height={740} />
+            <Image src={'/images/photo2015-16.jfif'} alt="" width={600} height={740} />
             <p className={classes.reportsHeading}>Academic Year 2014-2015</p>
             <div className={classes.objectivesContent} style={{ marginBottom: '20px' }}>
                 <ArrowForwardIosIcon className={classes.arrowIcon} />
                 <a className={classes.arrowwithContent}>Academic Administrative Audit Report 2014-2015</a>
             </div>
-            <Image src={'/images/photo2014-15.jpg'} alt="" width={1360} height={740} />
+            <Image src={'/images/photo2014-15.jpg'} alt="" width={600} height={740} />
             <p className={classes.reportsHeading}>Academic Year 2013-2014</p>
             <div className={classes.objectivesContent} style={{ marginBottom: '20px' }}>
                 <ArrowForwardIosIcon className={classes.arrowIcon} />
@@ -176,7 +176,7 @@ const AAAReports = () => {
 
             </div>
             <div>
-                <Image src={'https://drive.google.com/uc?id=1T-oVRiQHWWJq-nHIOV9qnqn4NJXxjJoL'} alt="" width={1360} height={740} />
+                <Image src={'https://drive.google.com/uc?id=1T-oVRiQHWWJq-nHIOV9qnqn4NJXxjJoL'} alt="" width={600} height={740} />
             </div>
         </div>
     )

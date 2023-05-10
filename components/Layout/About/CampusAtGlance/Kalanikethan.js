@@ -23,7 +23,7 @@ const Kalanikethan = () => {
   return <div>
       <h3 className={classes.teluguHeading}>Kalanikethan</h3>
       <p className={classes.teluguContent}>It is an open air theatre where all occasions of college celebrated in every time.</p>
-      <Image src={'/images/kalanikethan.gif'} alt="" width={1360} height={940} />
+      <Image src={'/images/kalanikethan.gif'} alt="" width={600} height={600} />
   </div>;
 };
 

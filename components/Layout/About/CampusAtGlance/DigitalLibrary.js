@@ -36,7 +36,7 @@ const DigitalLibrary = () => {
         The UG & PG library has a shelving capacity of more than 56,900 books which is regarded as an asset to any educational institution. Indeed, it is a treasure house to knowledge seekers. Amenities include a peaceful inner circle, comfortable seating for the students, and Wi-Fi accessible inviting reading areas.
         </p>
         <h2 className={classes.HeadingMain}>Library</h2>
-        <Image src={'/images/library.gif'} alt="" width={1360} height={1140} />
+        <Image src={'/images/library.gif'} alt="" width={600} height={600} />
   </div>;
 };
 

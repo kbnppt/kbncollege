@@ -1,11 +1,5 @@
 
 import React from 'react';
-import TelAbout from '../UG/TeluguDep/TelAbout';
-import TelFaculty from '../UG/TeluguDep/TelFaculty';
-import TelAchivements from '../UG/TeluguDep/TelAchivements';
-import TelEvents from '../UG/TeluguDep/TelEvents';
-import TelLab from '../UG/TeluguDep/TelLab';
-import TelMore from '../UG/TeluguDep/TelMore';
 import DepartmentInner from '../../../../MainSidebar/DepartmentInner';
 import MBADepHome from './MBADep/MBADepHome';
 import MCADepHome from './MCAdep/MCADepHome';

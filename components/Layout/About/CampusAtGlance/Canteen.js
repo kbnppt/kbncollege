@@ -28,7 +28,7 @@ const Canteen = () => {
         <p className={classes.teluguContent}>
         Food, Fresh and Healthy eating is the policy adopted by our college canteen. Hygienic food is given the priority with minimal charges. Serving time is managed fast not to give a chance for the students to bunk classes.
         </p>
-        <Image src={'/images/canteen.gif'} alt="" width={1360} height={940} />
+        <Image src={'/images/canteen.gif'} alt="" width={600} height={600} />
   </div>;
 };
 

@@ -49,7 +49,7 @@ const ICTFacilities = () => {
           Number of seminar halls with ICT facilities: 3 (VIVEKANANDA, NETAJI & Seminar hall-3)
           </p>
       </div>
-      <Image src={'/images/ict.gif'} alt="" width={1360} height={940} />
+      <Image src={'/images/ict.gif'} alt="" width={600} height={600} />
   </div>;
 };
 

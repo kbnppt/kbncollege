@@ -17,7 +17,7 @@ const Infrastructure = () => {
 
   return <div>
       <h3 className={classes.teluguHeading}>Infrastructure</h3>
-      <Image src={'/images/infra.gif'} alt="" width={1360} height={940} />
+      <Image src={'/images/infra.gif'} alt="" width={600} height={600} />
   </div>;
 };
 

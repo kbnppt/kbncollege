@@ -58,7 +58,7 @@ const Museums = () => {
       <p className={classes.teluguContent} style={{paddingBottom:'20px'}}>
       Benevolent and beneficial insects like silk worm, honey bee, lac insect are present. There are models of fish dissections, frog dissections, life cycle of frog, rabbit reproductive organs (male & female), human viscera, eye, and akin. The highlight of the museum is the entire human Skelton. It has Australian Specimens like Kangaroo, Opposum & lungfish Neoceratodus. It has connecting links like Duck billed platypus (between reptiles & Mammals), lungfishes (fishes & amphibians) and Peripatus (annelids & anthropods). Thus the museum of the department is a milestone in the organic development of the college
       </p>
-      <Image src={'/images/museumzoo.gif'} alt="" width={1360} height={940} />
+      <Image src={'/images/museumzoo.gif'} alt="" width={600} height={600} />
       <p className={classes.teluguHeading} style={{marginTop:'20px'}}>BOTANY MUSEUM</p>
       <p className={classes.teluguContent}>
       The Museum of Botanical diversity in the Department of Botany, houses the collection of botanical specimens gathered by the late Prof. K.R.V. Subrahmanyam, since 1965 and further augmented from time to time by the faculty members till date HOD of Botany Ms. Ch. Radhika and Dr. G. Ramesh with the support of students of the Botany Department
@@ -71,7 +71,7 @@ const Museums = () => {
       {/* <Button variant="contained" color="primary" style={{margin:'18px 0px'}}>
         More
       </Button> */}
-      <Image src={'/images/botany_musium.gif'} alt="" width={1360} height={940} />
+      <Image src={'/images/botany_musium.gif'} alt="" width={600} height={600} />
   </div>;
 };
 
