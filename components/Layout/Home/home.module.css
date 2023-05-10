@@ -1,0 +1,45 @@
+.resPosition {
+  height: 206px;
+}
+
+@media only screen and (max-width: 1406px) {
+  .resPosition {
+    height: 241px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .resPosition {
+    height: 207px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .resPosition {
+    height: 233px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .resPosition {
+    height: 313px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .resPosition {
+    height: 285px;
+  }
+}
+
+@media only screen and (max-width: 618px) {
+  .resPosition {
+    height: 319px;
+  }
+}
+
+@media only screen and (max-width: 469px) {
+  .resPosition {
+    height: 343px;
+  }
+}

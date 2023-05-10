@@ -1,0 +1,31 @@
+.headingContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 60%; */
+  margin-left: auto;
+  /* border: 1px solid red; */
+}
+.headingTxt {
+  color: #07358a;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  font-size: 1.5rem;
+}
+.headingDecoration {
+  margin-top: 5px;
+  width: 88px;
+  background: #98afc7;
+  height: 4px;
+  margin-left: 10px;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .headingContainer {
+    width: 100%;
+  }
+}

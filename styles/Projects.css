@@ -1,0 +1,69 @@
+.projects-intro-section {
+  padding-bottom: 12em;
+  width: 100%;
+  height: auto;
+}
+
+.projects-intro-section .circuit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container h1 {
+  font-family: 'Abril Fatface', serif;
+  font-size: 400%;
+  color: #303030;
+}
+.container .h1-inner {
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .container .h1-inner {
+    font-size: 300%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container .h1-inner {
+    font-size: 300%;
+  }
+}
+
+p {
+  margin-top: 2rem;
+  color: #303030;
+  font-family: 'Alegreya Sans', sans-serif;
+  line-height: 1.6;
+}
+p .p-inner {
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 450px) {
+  p {
+    text-align: center;
+  }
+}
+
+.projects-section {
+  width: 100%;
+}
+
+.projects-section .projects {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

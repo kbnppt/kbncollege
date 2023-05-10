@@ -1,0 +1,14 @@
+.tableMain {
+  border-collapse: collapse;
+  text-align: center;
+}
+.tableMain th {
+  background: cyan;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.tableMain td {
+  padding: 4px;
+  border: 1px solid black;
+}

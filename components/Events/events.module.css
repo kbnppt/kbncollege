@@ -1,0 +1,53 @@
+.eventsMain {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.paperMain {
+	width: 83%;
+	margin: auto;
+}
+
+.events {
+	padding: 25px;
+	display: flex;
+}
+
+.eventsCalender {
+ 	 width: 30%;
+}
+
+.eventsCalender input {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sociallinks {
+	padding-top: 15px;
+	width: 65%;
+	display: flex;
+	justify-content: space-around;
+	color: orange;
+}
+
+.allEvents {
+	width: 70%;
+	margin-left: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+	.paperMain {
+		width: 90%;
+	}
+	.events {
+		flex-direction: column;
+	}
+	.eventsCalender {
+		width: 100%;
+	}
+	.allEvents {
+		padding-top: 20px;
+		width: 100%;
+		margin-left: 0px;
+	}
+}

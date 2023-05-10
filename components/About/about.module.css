@@ -1,0 +1,54 @@
+.aboutmain {
+    padding-bottom: 60px;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.contentmain {
+    width: 45%;
+    position: relative;
+}
+
+.aboutcontent {
+    padding: 65px 90px;
+    position: absolute;
+    top: 60px;
+    left: -50px;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutmain {
+        padding-bottom: 280px;
+    }
+
+    .about {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .aboutvideo {
+        width: 100%;
+    }
+
+    .video {
+        width: 85%;
+        height: 280px;
+    }
+
+    .contentmain {
+        width: 100%;
+    }
+
+    .aboutcontent {
+        padding: 30px 40px;
+        padding-top: 70px;
+        top: -50px;
+        left: 50px;
+        z-index: -1;
+    }
+}

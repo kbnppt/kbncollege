@@ -1,0 +1,210 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
+import Image from 'next/image';
+
+const useStyles = makeStyles((theme) => ({
+  teluguHeading:{
+      //fontSize:'36px',
+      color:'#0048cd',
+      margin:'0',
+      paddingTop:'12px',
+      fontWeight:'normal'
+  },
+  facultyImages:{
+    marginTop:'25px',
+    display:'flex'
+  }
+  
+}));
+
+const KosaFaculty = () => {
+  const classes = useStyles();
+  return (
+    <div>
+        <h2 className={classes.teluguHeading}>Alumni Working as a Faculty</h2>
+        <Grid container spacing={3}>
+          <Grid item xs={12} className={classes.facultyImages}>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg1.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg2.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg3.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg4.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg5.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg6.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+            </Grid>
+			<Grid item xs={12} className={classes.facultyImages} style={{marginTop:'0px'}}>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg7.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg8.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg11.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg12.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg13.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg14.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+            </Grid>
+			<Grid item xs={12} className={classes.facultyImages} style={{marginTop:'0px'}}>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg15.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg16.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg17.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg18.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg19.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg20.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+            </Grid>
+			<Grid item xs={12} className={classes.facultyImages} style={{marginTop:'0px'}}>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg21.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg22.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg23.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg24.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg25.png'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg26.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+            </Grid>
+			<Grid item xs={8} className={classes.facultyImages} style={{marginTop:'0px'}}>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg27.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg28.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg29.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+				<Image 
+					src={'/images/ReownedAlumniImages/FacultyImages/kosaImg30.jpg'} 
+					alt="" 
+					width={1300} 
+					height={1400} 
+				/>
+            </Grid>
+        </Grid>
+    </div>
+  )
+}
+
+export default KosaFaculty

@@ -1,0 +1,68 @@
+.container {
+    width: 85%;
+    margin: auto;
+    background-color: #07358a;
+    display: flex;
+}
+.textBox {
+    width: '50%';
+    text-align: center;
+    padding: 1rem;
+}
+
+.container a {
+    color: white;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+}
+
+.heading {
+	text-decoration: underline;
+	color: white;
+}
+
+.admissionsmain {
+	width:50%;
+	text-align:center;
+}
+
+.imgmain {
+	width:50%;
+	padding:15px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.container {
+		padding: 10px;
+	}
+} 
+
+@media only screen and (max-width: 768px) {
+	.imgBox {
+		display: none;
+	}
+	.container {
+		padding: 10px;
+	}
+	.container a {
+		font-size: 14px;
+	}
+	.imgmain {
+		padding-top: 55px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.container {
+		width: 90%;
+		flex-direction: column;
+	}
+	.admissionsmain {
+		width: 100%;
+	}
+	.imgmain {
+		width: 100%;
+	}
+}

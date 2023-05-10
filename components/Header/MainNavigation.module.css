@@ -1,0 +1,1261 @@
+/* .base_nav{
+    display: flex;
+} */
+
+.base_nav_left {
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem; */
+    min-width: 200px;
+}
+
+.base_nav_right{
+    /* width: 70%; */
+}
+
+.base_nav_right > div{
+    /* border:1px solid blue; */
+    /* height: 50%; */
+    /* padding: 1rem; */
+}
+
+/* Header Start */
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 11px 0 0 -5px;
+    background: #fff;
+  }
+  
+  .headerHeading {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 28px;
+    color: #bc0909;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+      'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .headerSponsor {
+    margin: 0;
+    text-align: center;
+    font-family: serif;
+    font-size: 22px;
+    color: #07358a;
+  }
+  
+  /* Navigation Start */
+  
+  /* Admission button Start */
+  
+  .admissionbtn {
+    position: absolute;
+    right: 8px;
+    width: 7%;
+    text-align: center;
+  }
+  
+  .admissionbtn button {
+    background-color: #fdb10f;
+    color: #07358a;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-radius: 0px 0px 0px 15px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .admissionbtn:hover button {
+    background-color: #fdb10f;
+    color: #07358a;
+  }
+  
+  /* Admission button end */
+  
+  /* Logo Start */
+  
+  .logo {
+    display: flex;
+    margin-left: 40px;
+    width: '20%';
+  }
+  
+  .logoTxt {
+    margin-left: 10px;
+    padding-top: 12px;
+    text-transform: uppercase;
+    color: #b05329;
+  }
+  .logo p {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .logo span {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 2.2px;
+    font-weight: 600;
+  }
+  
+  /* Logo end */
+  
+  .navbarMain {
+    display: block;
+    width: 100%;
+    /* margin-left: auto; */
+    /* position: relative; */
+  }
+  
+  .navbar {
+    display: flex;
+    background-color: #07358a;
+    margin: 0;
+    border-radius: 0 0 0 15px;
+    padding: 0;
+  }
+  
+  .navbar li {
+    list-style: none;
+  }
+  
+  .navbar li a {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+    padding: 10px 16px;
+  }
+  /* .navbar li .onlineSTxtStyle {
+    font-weight: bold !important;
+  } */
+  .navbar li a:hover:not(.active) {
+    background-color: #07358a;
+    color: orange;
+    border-radius: 0 0 0 15px;
+  }
+  
+  .navbarlist {
+    display: flex;
+  }
+  
+  .navbarlist a {
+    padding-right: 19px;
+    padding-left: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  /* .navbarHome{
+      font-weight: bold;
+    border: 1px solid;
+  } */
+  
+  .navbarHome:hover {
+    border-radius: 0 0 0 15px;
+    color: orange;
+  }
+  
+  .dropdownss a {
+    font-weight: bold !important;
+  }
+  
+  .dropdownos a {
+    font-weight: bold !important;
+  }
+  
+  .dropdowncovid a {
+    font-weight: bold !important;
+  }
+  
+  .dropdownonline a {
+    font-weight: bold !important;
+  }
+  
+  .dropdown a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: #07358a;
+  }
+  
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dropdowncontent {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 250px;
+    background-color: #07358a;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9;
+  }
+  
+  .dropdowncontent a {
+    font-weight: 400 !important;
+  }
+  
+  .scell {
+    position: relative;
+  }
+  
+  .scellmain {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .scellicon {
+    margin-top: 12px;
+    color: white;
+    /* display: none; */
+  }
+  
+  .scell:hover .scell {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .scell:hover .scellist {
+    display: block;
+  }
+  
+  /* .scell:hover .scellicon {
+    color: #b05329;
+  } */
+  
+  .scellmain:hover a {
+    color: #b05329;
+  }
+  
+  .scellmain:hover .scellicon {
+    color: #b05329;
+  }
+  
+  .scellist {
+    width: 140%;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    background-color: #07358a;
+    padding: 0;
+    display: none;
+  }
+  
+  .dropdowncontent .dropdownlinks {
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+  
+  .dropdowncontent a:hover .dropdown {
+    background-color: #2b65d7;
+  }
+  
+  .services {
+      padding: 20px 0;
+  }
+  
+  .services:hover .megamenu {
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-left: 5px solid #07358a;
+    z-index: 9;
+   
+  }
+  
+  .home {
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .homemain {
+    position: relative;
+  }
+  
+  .homemain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+    /* color: #b05329; */
+  }
+  
+  .homehoverline {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  
+  .homemain:hover .homehoverline {
+    display: block;
+    /* transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55); */
+  }
+  
+  .placements {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .placementsmain {
+    position: relative;
+  }
+  
+  .placementsmain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+    /* color: #b05329; */
+  }
+  
+  .placementshoverline {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  
+  .placementsmain:hover .placementshoverline {
+    display: block;
+    /* transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55); */
+  }
+  
+  /* ariia start */
+  
+  .ariia {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .ariiamain {
+    position: relative;
+  }
+  
+  .ariiamain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+    /* color: #b05329; */
+  }
+  
+  .ariiahoverline {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  
+  .ariiamain:hover .ariiahoverline {
+    display: block;
+  }
+  
+  /* ariia end */
+  
+  /* nirf start */
+  
+  .nirf {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .nirfmain {
+    position: relative;
+  }
+  
+  .nirfmain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+    /* color: #b05329; */
+  }
+  
+  .nirfhoverline {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  
+  .nirfmain:hover .nirfhoverline {
+    display: block;
+  }
+  
+  /* nirf end */
+  
+  .servicesmain {
+    position: relative;
+  }
+  
+  .servicesmain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+    color: #b05329;
+  }
+  
+  .hoverline {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  
+  .servicesmain:hover .hoverline {
+    display: block;
+    /* transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55); */
+  }
+  
+  .megamenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    width: 100%;
+    margin: auto;
+    left: 10%;
+    padding: 1rem;
+    box-shadow: 0px 21px 50px 0px rgb(0 0 0 / 22%);
+    z-index: 1;
+  }
+  
+  .megagrid {
+    max-width: 100% !important;
+    /* width: 0% !important; */
+    /* border: 2px solid purple; */
+  }
+  
+  .row:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .row {
+    display: flex;
+    /* border: 1px solid purple; */
+  }
+  
+  .cardMain {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px;
+    width: 100%;
+    /* border: 1px solid pink; */
+  }
+  
+  .card {
+    width: 100%;
+    text-align: start;
+    position: relative;
+    /* border: 1px solid black; */
+  }
+  
+  .servicesLinks {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    /* border: 1px solid green; */
+  }
+  
+  .servicesLinks a {
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #07358a;
+  }
+  
+  .servicesLinks a:hover {
+    color: #b05329;
+  }
+  
+  .servicesLinks h3 {
+    padding-left: 17px;
+    margin: 0;
+    padding-bottom: 5px;
+    color: #b05329;
+  }
+  
+  /* campus at a glance start  */
+  
+  .campusicon {
+    margin-top: 2px;
+    color: #07358a;
+  }
+  .campusatglance{
+      position: relative;
+      /* border: 1px solid blue; */
+  }
+  .campusatglance:hover .campusicon {
+    color: #b05329;
+  }
+  
+  .campusatglance:hover a {
+    color: #b05329;
+  }
+  
+  .campusatglanceLinks {
+    position: absolute;
+    background-color: white;
+    left: 100%;
+    top: 0;
+    display: none;
+    width: 300px;
+    /* border: 1px solid red; */
+    z-index: 1;
+    padding: 5px 0px;
+    border-left: 5px solid #07358a;
+  }
+  
+  .campusatglance:hover .campusatglanceLinks {
+    display: block;
+  }
+  
+  .campusatglanceLinks a {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 20px;
+    color: #07358a !important;
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+  
+  .campusatglanceLinks a:hover {
+    color: #b05329 !important;
+  }
+  
+  /* campus at a glance end */
+  
+  /* admission start */
+  
+  .admissions {
+      position: relative;
+    padding: 20px 0;
+  }
+  
+  .admissionsmegamenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    /* width: 50%; */
+    margin: auto;
+    /* left: 35%; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9;
+  }
+  .admissions:hover .admissionsmegamenu {
+    display: block;
+    width: 300px;
+    margin: auto;
+    border-left: 5px solid #07358a;
+  }
+  
+  .admissionsmain {
+    position: relative;
+  }
+  
+  .admissionshoverline {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  
+  .admissionLinks {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .admissionLinks a {
+    padding: 5px 15px;
+    color: #07358a;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid red; */
+  }
+  
+  .admissionLinks a:hover {
+    color: #b05329;
+  }
+  
+  .admissionsmain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+  }
+  
+  .admissionsmain:hover .admissionLinks {
+    display: block;
+  }
+  
+  .admissionsmain:hover .admissionshoverline {
+    display: block;
+  }
+  /* admission end */
+  
+  /* academics start */
+  
+  .academics {
+    position: relative;
+      padding: 20px 0;
+  }
+  
+  .academicsmegamenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9;
+  }
+  .academics:hover .academicsmegamenu {
+    display: block;
+    width: 300px;
+    margin: auto;
+    border-left: 5px solid #07358a;
+  }
+  
+  .academicsmain {
+    position: relative;
+  }
+  
+  .academicshoverline {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  .academicsmain:hover .academicshoverline {
+    display: block;
+  }
+  
+  .academicsLinks {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .academicsLinks a {
+    padding: 5px 15px;
+    color: #07358a;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid red; */
+  }
+  
+  .academicsLinks a:hover {
+    color: #b05329;
+  }
+  
+  .departmentsLinks {
+    /* width: 100%; */
+    position: absolute;
+    background-color: white;
+    top: 40%;
+    /* left: 240px; */
+    padding: 5px 0px;
+    display: none;
+  }
+  
+  .departmentsLinks a {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #07358a !important;
+    /* border: 1px solid red; */
+  }
+  
+  .departmentsLinks a:hover {
+    color: #b05329 !important;
+  }
+  
+  .academicsugLinks {
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 100%;
+    padding: 5px 0px;
+    display: none;
+  }
+  
+  .academicsugLinks a {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #07358a !important;
+  }
+  
+  .academicsugLinks a:hover {
+    color: #b05329 !important;
+  }
+  
+  .departmentpgLinks {
+    display: none;
+  }
+  
+  .departmentpgLink {
+    width: 300px;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 100%;
+    padding: 5px 0px;
+    display: none;
+  }
+  
+  .departmentpgLink a {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #07358a !important;
+  }
+  
+  .departmentpgLink a:hover {
+    color: #b05329 !important;
+  }
+  
+  .pgprograms:hover .departmentpgLink {
+    display: block;
+    border-left: 5px solid #07358a;
+  }
+  
+  .academicsmain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+  }
+  
+  .ugprograms {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .ugprograms:hover .departmentsLinks {
+    display: block;
+    border-left: 5px solid #07358a;
+  }
+  
+  .ugicon {
+    /* border: 1px solid green; */
+    margin-top: 9px;
+    color: #07358a;
+  }
+  
+  .ugprograms:hover .ugicon {
+    color: #b05329;
+  }
+  
+  .ugprograms:hover a {
+    color: #b05329;
+  }
+  
+  .departmentugLinks {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .departmentugLinks:hover .academicsugLinks {
+    display: block;
+    border-left: 5px solid #07358a;
+  }
+  .departmentugLinks:hover .departmentugicon {
+    color: #b05329;
+  }
+  
+  .departmentugLinks:hover a {
+    color: #b05329;
+  }
+  
+  .departmentugicon {
+    /* border: 1px solid green; */
+    margin-top: 9px;
+    color: #07358a;
+  }
+  
+  .departmentsLinks:hover .departmentugicon {
+    color: #b05329;
+  }
+  
+  .departmentpgLinks {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  .departmentpgLinks:hover .departmentpgLink {
+    display: block;
+    border-left: 5px solid #07358a;
+  }
+  .departmentpgLinks:hover .pgicon {
+    color: #b05329;
+  }
+  
+  .departmentpgLinks:hover a {
+    color: #b05329;
+  }
+  
+  .pgprograms {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .pgicon {
+    /* border: 1px solid green; */
+    margin-top: 9px;
+    color: #07358a;
+  }
+  
+  .pgprograms:hover .pgicon {
+    color: #b05329;
+  }
+  
+  .pgprograms:hover a {
+    color: #b05329;
+  }
+  
+  .diplomaprograms {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dipicon {
+    /* border: 1px solid green; */
+    margin-top: 9px;
+    color: #07358a;
+  }
+  
+  .diplomaprograms:hover .dipicon {
+    color: #b05329;
+  }
+  
+  .diplomaprograms:hover a {
+    color: #b05329;
+  }
+  
+  .academicsdiplomaLinks {
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    top: 14%;
+    left: 96%;
+    padding: 5px 0px;
+    display: none;
+  }
+  
+  .academicsdiplomaLinks a {
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #07358a !important;
+  }
+  
+  .academicsdiplomaLinks a:hover {
+    color: #b05329 !important;
+  }
+  
+  .diplomaprograms:hover .academicsdiplomaLinks {
+    display: block;
+    border-left: 5px solid #07358a;
+  }
+  
+  /* academics end */
+
+  /* ariia */
+  .ariiamegamenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9;
+  }
+
+  .ariia:hover .ariiamegamenu {
+    display: block;
+    width: 28%;
+    margin: auto;
+    border-left: 5px solid #07358a;
+  }
+  /* iqac start */
+  
+  .iqac {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .iqacmegamenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    margin: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 9;
+  }
+  .iqac:hover .iqacmegamenu {
+    display: block;
+    width: 28%;
+    margin: auto;
+    border-left: 5px solid #07358a;
+  }
+  
+  .iqacmain {
+    position: relative;
+  }
+  
+  .iqachoverline {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  .iqacmain:hover .iqachoverline {
+    display: block;
+  }
+  
+  .iqacLinks {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* display: none; */
+  }
+  
+  .iqacLinks a {
+    padding: 5px 15px;
+    color: #07358a;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .iqacLinks a:hover {
+    color: #b05329;
+  }
+  
+  .iqacmain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+  }
+  
+  /* quality initiatives start  */
+  
+  .qInitiativeicon {
+    margin-top: 8px;
+    color: #07358a;
+  }
+  
+  .qualityInitiative {
+      position: relative;
+    /* border: 1px solid red; */
+  }
+  
+  .qualityInitiative:hover .qInitiativeicon {
+    color: #b05329;
+  }
+  
+  .qualityInitiative:hover a {
+    color: #b05329;
+  }
+  
+  .qualityInitiativeLinks {
+    position: absolute;
+    background-color: white;
+    left: 100%;
+    top: 0;
+    z-index: 1;
+    padding: 5px 0px;
+    border-left: 5px solid #07358a;
+    display: none;
+  }
+  
+  .qualityInitiative:hover .qualityInitiativeLinks {
+    display: block;
+    width: 100%;
+  }
+  
+  .qualityInitiativeLinks a {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 20px;
+    color: #07358a !important;
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+  
+  .qualityInitiativeLinks a:hover {
+    color: #b05329 !important;
+  }
+  
+  /* quality initiatives end */
+  
+  /* iqac end */
+  
+  /* contact start */
+  
+  .contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .contactmain {
+    position: relative;
+  }
+  
+  .contacthoverline {
+    position: absolute;
+    top: 32px;
+    width: 100%;
+    height: 25%;
+    border: 1px solid #07358a;
+    background-color: #07358a;
+    display: none;
+  }
+  
+  .contactmain:hover .contacthoverline {
+    display: block;
+  }
+  
+  .contactmegamenu {
+    display: none;
+    position: absolute;
+    top: 98px;
+    background-color: #f9f9f9;
+    width: 50%;
+    margin: auto;
+    /* left: 85%; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .contact:hover .contactmegamenu {
+    display: block;
+    width: 20%;
+    margin: auto;
+    border-left: 5px solid #07358a;
+  }
+  
+  .contactLinks {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .contactLinks a {
+    padding: 5px 15px;
+    color: #07358a;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    /* border: 1px solid red; */
+  }
+  
+  .contactLinks a:hover {
+    color: #b05329;
+  }
+  
+  /* .contactmain a {
+    border-right: 2px solid #98afc7;
+    border-color: #98afc7;
+  } */
+  
+  .contactmain:hover .contactLinks {
+    display: block;
+  }
+  
+  .contactmain:hover .contacthoverline {
+    display: block;
+  }
+  
+  /* contact end */
+  
+  /* Navigation end */
+  
+  /* Header end */
+  
+  .mobileNav {
+    display: none;
+  }
+  
+  .megasideHover {
+    display: none;
+    /* border: 1px solid yellow; */
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+    /* border: 1px solid red; */
+  }
+ 
+
+  @media only screen and (max-width: 1440px) {
+    .admissionbtn {
+      /* border: 1px solid red; */
+      /* width: 11%; */
+    }
+    .iqacmegamenu {
+      /* left: 50%; */
+    }
+    .qualityInitiativeLinks {
+      left: 99%;
+    }
+    /* .contactmegamenu {
+      left: 80%;
+    } */
+
+    .departmentsLinks {
+      left: 100%;
+      width: 50%;
+    }
+    .academicsugLinks {
+      width: 200%;
+      left: 100%;
+      /* border: 1px solid red; */
+    }
+    .departmentpgLink {
+      width: 250%;
+    }
+  }
+  @media only screen and (max-width: 1420px) {
+    .navbarlist a{
+      padding: 0 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .admissionbtn {
+      /* border: 1px solid red; */
+      /* width: 13%; */
+    }
+  }
+  @media only screen and (max-width: 1250px) {
+    .admissionbtn {
+        display: none;
+      /* border: 1px solid green; */
+      /* width: 13%; */
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .navbarMain {
+      display: none;
+    }
+   
+    .logo {
+      margin-left: 20px;
+    }
+    .base_nav_left {
+        justify-content: space-around;
+    }
+    .mobileNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  }
+  
+  @media only screen and (min-width: 2560px) {
+    .admissionbtn {
+      /* border: 1px solid green; */
+      width: 4%;
+      right: 0px;
+    }
+    .campusatglanceLinks {
+      left: 10%;
+    }
+    .admissionsmegamenu {
+      /* width: 100%; */
+      /* left: 25%; */
+    }
+    .academicsmegamenu {
+      /* left: 30%; */
+    }
+    .departmentsLinks {
+      left: 100%;
+      width: 30%;
+    }
+    .academicsugLinks {
+      width: 200%;
+      left: 100%;
+    }
+    .academicsdiplomaLinks {
+      left: 98%;
+    }
+    .departmentpgLink {
+      width: 200%;
+    }
+    .iqacmegamenu {
+      /* left: 30%; */
+    }
+    .qualityInitiativeLinks {
+      left: 99%;
+    }
+    .contactmegamenu {
+      /* left: 50%; */
+    }
+  }
+  @media only screen and (min-width: 1441px) {
+    .academicsugLinks {
+      /* border: 1px solid red; */
+      left: 100%;
+    }
+    .departmentsLinks {
+      left: 100%;
+    }
+  }
+  

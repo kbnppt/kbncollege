@@ -1,0 +1,361 @@
+.container {
+  /* border: 1px solid red; */
+  text-align: center;
+  margin-top: 15px;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 25px;
+  padding-top: 20px;
+  color: #b05329;
+}
+
+.container p {
+  margin: 0;
+}
+
+.root {
+  display: 'flex';
+  flex-wrap: 'wrap';
+  /* '& > *': {
+      margin: theme.spacing(1),
+      width: theme.spacing(16),
+      height: theme.spacing(16),
+    }, */
+}
+
+.rootMain {
+  max-width: 400;
+  flex-grow: 1;
+}
+
+.header {
+  display: 'flex';
+  align-items: 'center';
+  height: 50;
+  padding-left: 40px;
+  background-color: red;
+}
+
+.sliders {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.newsMain {
+  /* border: 1px solid red; */
+  /* margin-top: 50px;
+    margin-bottom: 50px; */
+  padding: '6rem 0';
+}
+
+.news {
+  /* border: 1px solid green; */
+  position: relative;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1; /*new*/
+  overflow: hidden;
+}
+.school {
+  cursor: pointer;
+  text-align: center;
+}
+
+.school p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+  color: #b05329; /*#bc0909 */
+  text-transform: uppercase;
+}
+
+.school i {
+  /* color:#787878; */
+  font-size: 13px;
+  color: black;
+  display: block;
+  padding-top: 10px;
+}
+
+.iconbar {
+  position: fixed;
+  top: 55%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* .iconbar {
+  display: inline-flex;
+} */
+
+.iconbar .icon {
+  /* margin: 0 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.iconbar .icon a {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  display: block;
+  background: #fff;
+  text-align: center;
+  border-radius: 30px;
+  z-index: 2;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.iconbar .icon .tooltip {
+  position: absolute;
+  /* top: 60%; */
+  left: -35%;
+  border: 1px solid transparent;
+  /* left: 50%; */
+  background: red;
+  color: white;
+  font-size: 18px;
+  padding: 10px 18px;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.iconbar .icon:hover .tooltip {
+  top: 0px;
+  /* left: -20%; */
+  left: 140%;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.iconbar .icon .tooltip:before {
+  position: absolute;
+  content: '';
+  height: 15px;
+  width: 15px;
+  background: blue;
+  /* border-style:1 solid pink red green yellow; */
+  /* bottom: -8px; */
+  bottom: 33%;
+  right: 100%;
+  transform: translateX(50%) rotate(45deg);
+}
+
+.iconbar .icon:hover a,
+.iconbar .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* .iconHeading {
+  position: relative;
+  margin:0;
+  margin-right:12px;
+  border:1px solid red;
+  padding:8px 10px;
+  border-radius:25px;
+  font-size: 17px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+
+}
+
+.facebook:hover {
+  opacity: 1;
+  pointer-events: auto;
+
+}
+
+.iconHeading:before{
+  position: absolute;
+  content: "";
+  height: 13px;
+  width: 13px;
+  background-color: green ;
+  right: -20px;
+  top: 30%;
+  transform: translateX(-50%) rotate(0deg);
+}
+
+.iconHeadingtwitter {
+  margin:0;
+  border:1px solid red;
+  padding:7px 20px;
+  border-radius:25px 25px 25px 25px;
+  font-size: 17px;
+}
+
+.iconHeadinginstagram {
+  margin: 0;
+  margin-right: 10px;
+  border:1px solid red;
+  padding:7px 8px;
+  border-radius:25px 25px 25px 25px;
+  font-size: 17px;
+
+}
+
+.iconHeadingyoutube {
+  margin: 0;
+  margin-right: 10px;
+  border: 1px solid red;
+  padding: 7px 13px;
+  border-radius: 25px 25px 25px 25px;
+  font-size: 17px;
+} */
+
+/* .iconbar a {
+  display: block;
+  text-align: center;
+  padding: 11px 13px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 19px;
+  border-radius: 30px 30px 30px 30px;
+} */
+
+.iconbar a:hover {
+  background-color: #0048cd;
+}
+
+.facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.twitter {
+  background: #55acee;
+  color: white;
+}
+
+.instagram {
+  background: #007bb5;
+  color: white;
+}
+
+.youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.grievancesMain {
+  /* border: 1px solid red; */
+  position: sticky;
+}
+
+.grievances {
+  border: 1px solid green;
+  width: 16%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 8px;
+  /* position: fixed; */
+}
+
+@media only screen and (max-width: 768px) {
+  .news {
+    flex-direction: column;
+  }
+}
+
+/* .lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  z-index: -1;
+}
+
+.lines .line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+}
+
+.lines .line::after {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0)),
+    color-stop(75%, #000),
+    to(#000)
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    #000 75%,
+    #000 100%
+  );
+  -webkit-animation: run 7s 0s infinite;
+  animation: run 7s 0s infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.lines .line:nth-child(1) {
+  margin-left: -19%;
+}
+
+.lines .line:nth-child(1)::after {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.lines .line:nth-child(3) {
+  margin-left: 25%;
+}
+
+.lines .line:nth-child(3)::after {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+@-webkit-keyframes run {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+}
+
+@keyframes run {
+  0% {
+    top: -50%;
+  }
+  100% {
+    top: 110%;
+  }
+} */

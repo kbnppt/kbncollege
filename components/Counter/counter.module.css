@@ -1,0 +1,91 @@
+.counter {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.clients {
+  text-align: center;
+  font-size: 28px;
+}
+
+.countericons {
+  font-size: 50px;
+  color: #07358a;
+}
+
+.clients p {
+  margin: 0px;
+  color: #404040;
+  padding-bottom: 10px;
+}
+
+.clients span {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.record {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .counter {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+  }
+  .clients {
+    padding-top: 13px;
+  }
+  .countericons {
+    font-size: 40px;
+  }
+  .clients span {
+    font-size: 17px !important;
+    text-align: center;
+  }
+  .clients p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .counter {
+    flex-direction: column;
+  }
+  .clients {
+    padding-top: 13px;
+  }
+  .countericons {
+    font-size: 43px;
+  }
+  .clients span {
+    font-size: 19px !important;
+  }
+  .clients p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .counter {
+    width: 90%;
+    margin: auto;
+  }
+  .countericons {
+    width: 40px;
+    height: 40px;
+  }
+  .clients span {
+    font-size: 28px !important;
+  }
+  .clients p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
