@@ -62,22 +62,11 @@ export default function HorizontalCutomTabs({ data, shadowProp, subNav }) {
     // console.log('__props', data, shadowProp, subNav)
     let locationUrl;
 
-    const initialCall =() =>{
-    // console.log('__props initial call',)
-        if (shadowProp) {
-            // console.log(router, 'normal nav');
-            locationUrl = router?.asPath?.split('#')[1];
-            // console.log(router, 'normal nav');
-            // console.log(data, '******');   
-        } else {
-            locationUrl = router?.asPath?.split('#')[2];
-            // console.log(locationUrl, 'sub nav******');
-        }
+    if (shadowProp) {
+        locationUrl = router?.asPath?.split('#')[1]
+    } else {
+        locationUrl = router?.asPath?.split('#')[2]
     }
-
-    React.useEffect(()=>{
-        initialCall()
-    },[])
 
     const findTabValue = (url) => {
         const modifiedUrl = url.split('-').join(' ');
