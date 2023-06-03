@@ -81,8 +81,8 @@ const Index = () => {
                 { id: 1, title: 'Undergraduate Programmes', componentInfo: <UnderGraduate /> },
                 { id: 2, title: 'Post Graduate Programmes', componentInfo: <PostGraduateComponent /> },
                 { id: 3, title: 'Diploma Programmes', componentInfo: <Diploma /> },
-                { id: 3, title: 'UGC Career Oriented Courses', componentInfo: <Ugccareer /> },
-                { id: 3, title: 'Vocational Education Training Courses', componentInfo: <Vetc /> },
+                { id: 4, title: 'UGC Career Oriented Courses', componentInfo: <Ugccareer /> },
+                { id: 5, title: 'Vocational Education Training Courses', componentInfo: <Vetc /> },
             ]
         },
         {
@@ -101,9 +101,9 @@ const Index = () => {
                 { id: 12, title: 'Department of Physical Education', componentInfo: <DeptOfPhysicalEducation /> },
                 { id: 13, title: 'Department of MBA', componentInfo: <DeptOfMBA /> },
                 // { id: 14, title: 'Department of M.Sc(CS)', componentInfo: <DeptOfMSCCS /> },
-                { id: 15, title: 'Department of MCA', componentInfo: <DeptOfMCA /> },
+                { id: 14, title: 'Department of MCA', componentInfo: <DeptOfMCA /> },
                 // { id: 16, title: 'Department of M.COM', componentInfo: <DeptOfMCOM /> },
-                { id: 17, title: 'Department of M.Sc(Organic & Analytical Chemistry)', componentInfo: <DeptOfMSCOrganic /> },
+                { id: 15, title: 'Department of M.Sc(Organic & Analytical Chemistry)', componentInfo: <DeptOfMSCOrganic /> },
                 
             ]
         },
