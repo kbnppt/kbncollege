@@ -91,8 +91,9 @@ a {
 /* marque styles */
 .marquee-container {
   /* padding: 1.2rem 0; */
-  height: 44px;
+  height: 48px;
   background: #07358a;
+  overflow: hidden !important;
 }
 
 .marqueStyles {
@@ -106,24 +107,27 @@ a {
   top: 0;
   left: 0;
   width: 170px;
-  height: 44px;
+  height: 48px;
   background: #fdb10f;
   text-align: center;
   padding-top: 10px;
   color: #07358a;
   font-weight: 600;
   z-index: 2;
+  overflow: hidden !important;
 }
 
 .trianglebottomright {
   position: absolute;
   content: '';
-  width: 32px;
-  height: 32px;
+  width: 34px;
+  height: 34px;
   background: #fdb10f;
-  transform: rotate(47deg);
-  left: 155px;
-  top: 6px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 153px;
+  top: 7px;
   z-index: 2;
 }
 
