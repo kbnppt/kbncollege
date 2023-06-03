@@ -298,7 +298,7 @@ function MyApp({ Component, pageProps }) {
                     />
                   </div>
                   <a
-                    href={`https://wa.me/918500684382?text=${message}`}
+                    href={`https://wa.me/919182907747?text=${message}`}
                     target="_blank"
                   >
                     {" "}
